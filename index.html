@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen de Javascript</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="title">Convertidor de divisas</div>
+  <div class="input">
+    <label for="monto">Cantidad:</label>
+    <input type="text" id="monto" placeholder="Ingresa aca el monto del dinero">
+  </div>
+  <div class="input">
+    <label for="de">De:</label>
+    <select name="de" id="de">
+      <option value="10">Bolivianos</option>
+      <option value="20">Pesos Chilenos</option>
+      <option value="30">Pesos Mexicanos</option>
+      <option value="40">Pesos argentinos</option>
+      <option value="50">Dolares</option>
+    </select>
+  </div>
+  <div class="input">
+    <label for="a">A:</label>
+    <select name="a" id="a">
+      <option value="10">Bolivianos</option>
+      <option value="20">Pesos Chilenos</option>
+      <option value="30">Pesos Mexicanos</option>
+      <option value="50">Dolares</option>
+    </select>
+  </div>
+  <div class="buttonContainer">
+    <button id="calcular">Calcular</button>
+  </div>
+  <div class="input">
+    <label for="respuesta">Resultado:</label>
+    <input type="text" id="respuesta">
+  </div>
+  
+  <script src="./js/main.js"></script>
+</body>
+</html>
