@@ -1,7 +1,7 @@
 body, html {
   padding: 10px;
   margin: 0;
-  background: #303030;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@ body, html {
 
 .title {
   font-size: 3rem;
-  color: #FFF;
+  color: #2a3388;
   margin-bottom: 50px;
 }
 
@@ -24,20 +24,20 @@ body, html {
   justify-content: space-between;
 }
 label {
-  color: #FFF;
+  color: #443f3f;
   font-size: 1.1rem;
   width: 100px;
 }
 input[type=text]{
   padding: 10px;
-  border-radius: 7px;
+  border-radius: 12px;
   border: none;
   width: calc(300px - 20px);
 }
 select {
   width: 300px;
   padding: 10px;
-  border-radius: 7px;
+  border-radius: 12px;
 }
 .buttonContainer {
   width: 400px;
@@ -52,7 +52,7 @@ select {
 button {
   padding: 10px;
   width: 100%;
-  background: #1255a8;
+  background: #2a3388;
   border: none;
   border-radius: 10px;
   cursor: pointer;
