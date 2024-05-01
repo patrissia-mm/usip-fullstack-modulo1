@@ -19,31 +19,36 @@
   <body>
     <div class="title">CONVERTIDOR DE DIVISAS</div>
 
-    <div class="input">
-      <label for="monto">Cantidad:</label>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
       <input
+        class="mdl-textfield__input"
         type="text"
+        pattern="-?[0-9]*(\.[0-9]+)?"
         id="monto"
-        placeholder="Ingresa aca el monto del dinero"
-        value="1"
       />
+      <label class="mdl-textfield__label" for="monto">Cantidad: (Use punto decimal)</label>
+      <span class="mdl-textfield__error">No es un número válido</span>
     </div>
+
+
     <div class="input">
       <label for="de">De:</label>
-      <select name="de" id="de">
-      </select>
+      <select name="de" id="de"></select>
     </div>
     <div class="input">
       <label for="a">A:</label>
-      <select name="a" id="a">
-      </select>
+      <select name="a" id="a"></select>
     </div>
     <div class="buttonContainer">
-      <button id="calcular">Calcular</button>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="calcular">
+        Calcular
+      </button>
     </div>
+
+    
     <div class="input">
       <label for="respuesta">Resultado:</label>
-      <input type="text" id="respuesta" />
+      <input type="text" id="respuesta" readonly />
     </div>
 
     <script src="./js/main.js"></script>
